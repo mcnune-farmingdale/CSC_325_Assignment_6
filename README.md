@@ -19,7 +19,7 @@ The following is a review of the changes made by Copilot in test_triangle.py and
 |---|---|---|---|
 | test_is_valid_triangle | Yes | Rejected | Original test included all different cases under one test. I separated them for proper testing. |
 | test_is_invalid_triangle | Yes | Edited | This case was not created by Copilot. Originally it was part of one large test. |
-| test_classify_equilateral_triangle | No | Edited | I created this case myself and accepted some suggestions from copilot in tests. |
+| test_classify_equilateral_triangle | No | Edited | I created this case myself and used Copilot to scale this structure to the other tests. |
 | test_classify_isosceles_triangle | No | Edited | Same as case above. |
 | test_classify_scalene_triangle | No | Edited | Same as case above. |
 | test_classify_right_scalene_triangle | No | Edited | Same as case above. |
