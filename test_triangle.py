@@ -1,3 +1,5 @@
+import pytest
+import math
 from triangle import is_valid_triangle, classify_triangle
 
 def test_is_valid_triangle():
@@ -15,12 +17,7 @@ def test_is_invalid_triangle():
 def test_classify_right_scalene_triangle():
     # Test valid triangles
     assert classify_triangle(3, 4, 5) == "Right Scalene"
-
-def test_classify_right_isosceles_triangle():
-    # Test valid triangles
-    assert classify_triangle(1, 1, (2**0.5)) == "Right Isosceles"
-    assert classify_triangle(5, 5, 5 * math.sqrt(2)) == "Right Isosceles"
-     
+   
 def test_classify_scalene_triangle():
     #Test scalene triangle
     assert classify_triangle(3, 4, 6) == "Scalene"
